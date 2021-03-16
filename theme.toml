@@ -1,8 +1,7 @@
-name = "Hugo Novela"
+name = "Hugo Sunflower"
 license = "MIT"
-licenselink = "https://github.com/forestryio/hugo-theme-sunflowere/blob/master/LICENSE"
-description = "A Hugo port of the Novela theme by Narative"
-homepage = "https://hugo-novela-forestry.netlify.com/"
+description = "A Hugo Theme by Zxd"
+homepage = "https://zxdfe.github.io/"
 tags = ["blog"]
 features = ["dark mode", "grid view"]
 min_version = "0.65.0"
@@ -11,8 +10,4 @@ min_version = "0.65.0"
     name = "Zxd"
     homepage = "https://zxdfe.github.io/"
 
-# If porting an existing theme
-[original]
-    author = "Narative"
-    homepage = "https://www.narative.co/"
-    repo = "https://github.com/narative/gatsby-theme-novela"
+
