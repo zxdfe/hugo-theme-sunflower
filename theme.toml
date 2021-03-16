@@ -1,13 +1,8 @@
 name = "Hugo Sunflower"
 license = "MIT"
 description = "A Hugo Theme by Zxd"
-homepage = "https://zxdfe.github.io/"
-tags = ["blog"]
-features = ["dark mode", "grid view"]
-min_version = "0.65.0"
-
-[author]
-    name = "Zxd"
-    homepage = "https://zxdfe.github.io/"
-
-
+baseURL = "http://localhost:1313/"
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    archive = "archives"
