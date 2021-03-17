@@ -2,6 +2,7 @@ name = "Hugo Sunflower"
 license = "MIT"
 description = "A Hugo Theme by Zxd"
 baseURL = "http://localhost:1313/"
+pygmentsstyle = 'monokai'
 [taxonomies]
     tag = "tags"
     category = "categories"
