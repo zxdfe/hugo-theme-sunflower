@@ -9,7 +9,7 @@ $desktop_large: 1440px;
 
 body{
     /*FONTS*/
-    --serif: "roboto,Arial,sans-serif,-apple-system";
+    --serif: "Helvetica Neue,Arial,sans-serif,-apple-system";
     --sanserif: "SF Pro Display", "-apple-system", "BlinkMacSystemFont", "San Francisco", "Helvetica Neue", "Helvetica", "Ubuntu", "Roboto", "Noto", "Segoe UI", "Arial", sans-serif;
     --monospace: "Operator Mono", Consolas, Menlo, Monaco, source-code-pro, Courier New, monospace;
 
@@ -20,7 +20,7 @@ body{
     --primary: #000;
     --secondary: #73737D;
     --grey: #73737D;
-    --background-color: #fafafa;
+    --background-color:#f7f7f7;
     --accent: #6166DC;
     --hover: rgba(0, 0, 0, 0.07);
     --gradient: linear-gradient(180deg, rgba(217, 219, 224, 0) 0%, #D9DBE0 100%);

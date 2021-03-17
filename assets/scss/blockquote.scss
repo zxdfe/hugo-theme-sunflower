@@ -10,8 +10,6 @@ blockquote{
 
 blockquote > p {
   font-family: var(--serif);
-  max-width: 880px !important;
-  padding-right: 100px;
   padding-bottom: 0;
   width: 100%;
   margin: 0 auto;
@@ -24,13 +22,13 @@ blockquote > p {
     blockquote{
         margin: 10px auto 35px;
         font-size: 26px;
-        padding: 0 180px;
+        // padding: 0 180px;
     }
 }
 
 @media screen and (max-width: 540px) {
     blockquote{
         font-size: 36px;
-        padding: 0 20px 0 40px;
+        // padding: 0 20px 0 40px;
     }
 }
