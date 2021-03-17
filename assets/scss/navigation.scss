@@ -92,27 +92,20 @@
 }
 
 .nav-container{
-    position: relative;
     z-index: 100;
-    padding-top: 20px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-}
-@media screen and (max-width: 650px) {
-    .nav-container{
-        padding-top: 0;
-    }
+    justify-content: space-between;
+    align-items: center;
+    margin: 12px auto;
 }
 
-/*DESKTOP MEDIUM*/
-@media screen and (min-width: 1280px){
-    .nav-container{
-        padding-top: 50px;
-    }
+//new
+.fixed-header{
+    position: fixed;
+    top: 0;
+    background-color: #f7f7f7;
+    overflow: hidden;
+    z-index: 99;
 }
 
 .logo-link{
@@ -124,54 +117,14 @@
         -ms-flex-align: center;
             align-items: center;
 }
-
-.logo-link[class*="data-ally"]:focus::after {
-    content: "";
-    position: absolute;
-    left: -10%;
-    top: -30%;
-    width: 120%;
-    height: 160%;
-    border: 2px solid var(--accent);
-    background: rgba(255, 255, 255, 0.01);
-    border-radius: 5px;
+.back-home{
+    color: #bbb;
 }
-
-.logo-link[class*="back-arrow-ico-container"]{
-    -webkit-transform: translateX(-3px);
-        -ms-transform: translateX(-3px);
-            transform: translateX(-3px);
-}
-
-.logo-link:hover{
-    text-decoration: none;
-}
-
-/*DESKTOP MEDIUM*/
-@media screen and (max-width: 1280px){
-    .logo-link{
-        left: 0
-    }
-}
-
 .nav-controls{
     position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
 }
-
-/*PHABLET*/
-@media screen and (max-width: 540px){
-    .nav-controls{
-        right: -5px;
-        top: 20px;
-    }
-}
-
 .tool-tip{
     opacity: 0;
     -webkit-transform: translateY(6px);
@@ -429,18 +382,6 @@
 @keyframes contract-rays {
     from {-webkit-transform: scale(0.6);transform: scale(0.6);}
     to {-webkit-transform: scale(0.1);transform: scale(0.1);}
-}
-
-
-
-.header-hidden{
-    position: absolute;
-    display: inline-block;
-    opacity: 0;
-    width: 0px;
-    height: 0px;
-    visibility: hidden;
-    overflow: hidden;
 }
 
 /************************HEADER************************/
