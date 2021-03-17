@@ -2,9 +2,6 @@
 
 **This theme requires Hugo extended > 0.65.0**
 ## Install from the command line
-
-If you don't want to use the [starter](https://github.com/forestryio/novela-hugo-starter), you can start from scratch and just install this theme from the command line.
-
 Create a new Hugo site and initialize your project as a [Hugo module](https://gohugo.io/hugo-modules/use-modules/):
 
 ```
@@ -16,17 +13,12 @@ hugo mod init
 Edit your `config.toml` to add the theme settings:
 
 ```toml
-# Novela settings
-theme = "github.com/zxdfe/hugo-theme-novela"
+theme = "github.com/zxdfe/hugo-theme-sunflower"
 
-paginate = 6
+paginate = 8
 
 [social]
-twitter= "https://twitter.com/forestryio"
-github= "https://github.com/forestryio/novela-hugo-starter"
-linkedin= "https://www.linkedin.com/company/forestry.io"
-instagram = "#"
-dribbble = "#"
+github= "https://github.com/zxdfe/hugo-theme-sunflower"
 youtube = "#"
 
 [taxonomies]
@@ -43,26 +35,6 @@ hugo server -D
 
 You're good to go!
 
-## Customization
-
-### Logo
-
-Override `/themes/novela/layouts/partials/icons/ui/logo.html` with your own file at `/layouts/partials/icons/ui/logo.html`; include your logo in SVG format for desktop and mobile formats. 
-
-Novela supports light and dark mode. To have your logo respond in kind, add `class="change-fill"` to the svg path(s).
-
-### Socials
-
-In order for the Socials to be surfaced in Forestry, you should copy the theme's `config/_default/social.yaml` to your project.
-
-### Authors
-
-You should register authors as a taxonomy in your project's `config.yaml``
-
-```yaml
-taxonomies:
-  author: authors
-```
 
 #### Creating authors
 

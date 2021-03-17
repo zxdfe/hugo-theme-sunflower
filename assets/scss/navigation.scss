@@ -110,7 +110,7 @@
 .nav-container{
     position: relative;
     z-index: 100;
-    padding-top: 100px;
+    padding-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -118,15 +118,14 @@
         -ms-flex-pack: justify;
             justify-content: space-between;
 }
-
-@media screen and (max-height: 800px) {
+@media screen and (max-width: 650px) {
     .nav-container{
-        padding-top: 50px;
+        padding-top: 0;
     }
 }
 
 /*DESKTOP MEDIUM*/
-@media screen and (max-width: 1280px){
+@media screen and (min-width: 1280px){
     .nav-container{
         padding-top: 50px;
     }
@@ -185,6 +184,7 @@
 @media screen and (max-width: 540px){
     .nav-controls{
         right: -5px;
+        top: 20px;
     }
 }
 
