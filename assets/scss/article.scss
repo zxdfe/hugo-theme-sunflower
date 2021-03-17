@@ -19,25 +19,7 @@
     position: relative;
     z-index: 10;
     margin:100px auto 120px;
-    padding-left: 68px;
     max-width: 749px;
-  
-
-
-    @media screen and (max-width: $tablet){
-        padding-left: 0;
-        margin: 100px auto 70px;
-        max-width: 480px;
-    }
-
-    @media screen and (max-width: $phablet){
-        margin: 20px auto 30px;
-        padding: 0 40px;
-    }
-  
-    @media screen and (max-height: 700px) {
-      margin: 100px auto;
-    }
 }
 
 .article-hero-heading{
@@ -417,8 +399,13 @@
 /**************************************ARTICLE BODY**************************************/
 
 .post-content{
-    padding: 30px 0 35px;
+    padding: 30px 30px 35px;
+    width: 860px;
+    margin: 0 auto;
+    // box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    border-radius: 4px;
 }
+
 
 /**************************************ARTICLE NEXT**************************************/
 
