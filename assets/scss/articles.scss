@@ -65,15 +65,6 @@
     color: var(--primary);
     margin: 0;
   
-    /*DESKTOP*/
-    @media screen and (max-width: $desktop){
-      font-size: 38px
-    }
-  
-    /*PHABLET*/
-    @media screen and (max-width: $phablet){
-      font-size: 32px;
-    }
 }
 
 .grid-button{

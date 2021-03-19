@@ -4,14 +4,3 @@
     padding: 0 20px; 
     overflow: hidden;
 }
-
-.narrow{
-    p{
-        /*TABLET*/
-        @media screen and (max-width: 735px){
-            padding: 0 2rem;
-            max-width: 527px;
-        }
-    }
-    
-}

@@ -2,7 +2,7 @@ body {
     line-height: 1;
     font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #404040;
-    line-height: 1.75;
+    line-height: 1.5;
     letter-spacing: 0.008em;
   }
   
@@ -20,7 +20,7 @@ body {
     margin-top: 5px;
     margin-bottom: 5px;
     padding-left: 1em;
-    margin-left: 0px;
+    width: 800px;
     border-left: 3px solid #eee;
     color: #757575;
   }
@@ -75,11 +75,7 @@ body {
   h1,
   h2,
   h3 {
-    font-weight: 400;
-  }
-  p {
-    margin-block-start: 1.5em;
-    margin-block-end: 1.5em;
+    // font-weight: 400;
   }
   p,
   pre {
@@ -328,7 +324,7 @@ body {
   
   #single .title {
     text-align: center;
-    font-size: 32px;
+    // font-size: 32px;
     font-weight: 400;
     line-height: 48px;
   }

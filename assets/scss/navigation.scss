@@ -35,29 +35,10 @@
 
 .footer-hr{
     position: relative;
-    margin: 140px auto 50px;
+    margin: 30px auto 20px;
     border-bottom: 1px solid var(--horizontalRule);
 }
 
-/*TABLET*/
-@media screen and (max-width: 735px){
-    .footer-hr{
-        margin: 60px auto;
-    }
-    .footer-text{
-        margin-bottom: 80px;
-    }
-}
-
-/*PHABLET*/
-@media screen and (max-width: 540px){
-    .footer-hr{
-        display: none;
-    }
-    .footer-text{
-        margin: 120px auto 100px;
-    }
-}
 /************************HEADER************************/
 
 .back-arrow-ico-container{
@@ -119,12 +100,7 @@
             align-items: center;
 }
 .back-home{
-    color: #bbb;
-}
-.nav-controls{
-    position: relative;
-    display: flex;
-    align-items: center;
+    color: #bbb !important;
 }
 .tool-tip{
     opacity: 0;
