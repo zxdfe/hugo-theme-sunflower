@@ -123,10 +123,10 @@
 }
 
 /* Generic Icon */
-.icon-heart:before {
-  content: "\e608";
-}
-.icon-heart{
+// .icon-heart:before {
+//   content: "\e608";
+// }
+.fa-heartbeat{
   color: #ff7171;
 	display: inline-block;
 	animation: heartAnimate 1.33s ease-in-out infinite;

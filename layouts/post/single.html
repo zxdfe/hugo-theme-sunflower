@@ -54,7 +54,9 @@
       <nav class="post-nav">
         {{ with .NextInSection -}}
           <a class="prev" href="{{ .RelPermalink }}">
-            <i class="iconfont icon-left"></i>
+            <!-- <i class="iconfont icon-left"></i> -->
+            <!-- 文章内容页 -->
+            <i class="fa fa-long-arrow-left"></i>
             <span class="prev-text nav-default">{{ .Title }}</span>
             <span class="prev-text nav-mobile">{{ T "prevPost" }}</span>
           </a>
@@ -63,7 +65,8 @@
           <a class="next" href="{{ .RelPermalink }}">
             <span class="next-text nav-default">{{ .Title }}</span>
             <span class="next-text nav-mobile">{{ T "nextPost" }}</span>
-            <i class="iconfont icon-right"></i>
+            <!-- <i class="iconfont icon-right"></i> -->
+            <i class="fa fa-long-arrow-right"></i>
           </a>
         {{- end }}
       </nav>
