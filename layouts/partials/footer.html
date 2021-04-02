@@ -40,6 +40,6 @@
       <!-- <i class="iconfont icon-heart"></i> -->
       <i class="fa fa-heartbeat"></i>
     </span>
-    <span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+    <span class="z-author">{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
   </span>
 </div>
