@@ -126,6 +126,27 @@
 .icon-heart:before {
   content: "\e608";
 }
+.icon-heart{
+  color: #ff7171;
+	display: inline-block;
+	animation: heartAnimate 1.33s ease-in-out infinite;
+}
+@keyframes heartAnimate {
+	0%, 100% {
+    transform: scale(1);
+	}
+
+	10%, 30% {
+		transform: scale(.9);
+	}
+	20%, 40%, 60%, 80% {
+		transform: scale(1.1);
+	}
+	50%, 70% {
+		transform: scale(1.1);
+	}
+}
+// end
 .icon-right:before {
   content: "\e60a";
 }
