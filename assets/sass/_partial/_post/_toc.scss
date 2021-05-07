@@ -1,6 +1,7 @@
 .post-toc {
   position: absolute;
-  width: $post-toc-width;
+  // width: $post-toc-width;
+  width:220px;
   margin-left: $post-toc-margin-left;
   padding: 10px;
   font-family: $global-serif-font-family;
@@ -22,7 +23,17 @@
 
     &.always-active ul {
       display: block;
+      position: relative;
     }
+    // ul:before{
+    //   background-color: #dee0e3;
+    //   content: " ";
+    //   display: block;
+    //   height: 100%;
+    //   left: 0;
+    //   position: absolute;
+    //   width: 2px;
+    // }
 
     >nav>ul {
       margin: 10px 0;
@@ -30,16 +41,31 @@
 
     ul {
       padding-left: 20px;
-      list-style: $post-toc-list-style;
+      // list-style: $post-toc-list-style;
+      // list-style: square;
 
       ul {
         padding-left: 15px;
         display: none;
       }
-
+      li{
+        position: relative;
+      }
+      // .has-active:before{
+      //   background-color: #3370ff;
+      //   content: " ";
+      //   display: block;
+      //   height: 100%;
+      //   left: -20px;
+      //   position: absolute;
+      //   width: 2px;
+      // }
       .has-active > ul {
         display: block;
       }
+    }
+    .toc-link{
+      word-break: break-all;
     }
 
     .toc-link.active {

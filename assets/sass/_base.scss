@@ -52,6 +52,32 @@ img {
   vertical-align: middle;
 }
 
+.fancybox-image{
+  width:100% !important; 
+}
+img[src*="#w100"] {
+width: 100%;
+}
+img[src*="#w90"] {
+width: 90%;
+}
+
+img[src*="#w80"] {
+width: 80%;
+}
+
+img[src*="#w70"] {
+width: 70%;
+}
+
+img[src*="#w60"] {
+width: 60%;
+}
+
+img[src*="#w50"] {
+width: 50%;
+}
+
 a {
   color: $global-font-color;
   text-decoration: none;
@@ -61,6 +87,7 @@ a {
   #{$header} {
     font-size: $size;
     font-family: $global-serif-font-family;
+    font-family: 500;
   }
 }
 
