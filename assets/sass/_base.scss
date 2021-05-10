@@ -78,6 +78,13 @@ img[src*="#w50"] {
 width: 50%;
 }
 
+img[src*="#w40"] {
+  width: 40%;
+}
+img[src*="#w30"] {
+  width: 30%;
+}
+
 a {
   color: $global-font-color;
   text-decoration: none;
