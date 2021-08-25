@@ -43,5 +43,53 @@
     </div>
   </div>
   {{ partial "scripts.html" . }}
+  <script>
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        // 我是移动端哦~
+    }else {
+        const style = document.createElement("style")
+                    const cssText = `
+                    @media screen and (min-width: 750px){
+                        img[src*="#w100"] {
+                            width: 100%;
+                            }
+                            img[src*="#w90"] {
+                            width: 90%;
+                            }
+                            
+                            img[src*="#w80"] {
+                            width: 80%;
+                            }
+                            
+                            img[src*="#w70"] {
+                            width: 70%;
+                            }
+                            
+                            img[src*="#w60"] {
+                            width: 60%;
+                            }
+                            
+                            img[src*="#w50"] {
+                            width: 50%;
+                            }
+                            
+                            img[src*="#w40"] {
+                            width: 40%;
+                            }
+                            img[src*="#w30"] {
+                            width: 30%;
+                            }
+                        }
+                    `
+                    try{
+                    // firefox、safari、chrome和Opera
+                        style.appendChild(document.createTextNode(cssText));
+                    }catch(ex) {
+                    // IE早期的浏览器 ,需要使用style元素的stylesheet属性的cssText属性
+                        style.styleSheet.cssText = cssText;
+                    }
+                    document.getElementsByTagName("head")[0].appendChild(style);
+    }
+  </script>
 </body>
 </html>
