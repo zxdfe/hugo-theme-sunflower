@@ -56,70 +56,70 @@ img {
 .fancybox-image{
   width:100% !important; 
 }
-// 仅pc缩放
-@media screen and (min-width: 750px){
-    img[src*="#w100"] {
-      width: 100%;
-      }
-      img[src*="#w90"] {
-      width: 90%;
-      }
+// // 仅pc缩放
+// @media screen and (min-width: 750px){
+//     img[src*="#w100"] {
+//       width: 100%;
+//       }
+//       img[src*="#w90"] {
+//       width: 90%;
+//       }
       
-      img[src*="#w80"] {
-      width: 80%;
-      }
+//       img[src*="#w80"] {
+//       width: 80%;
+//       }
       
-      img[src*="#w70"] {
-      width: 70%;
-      }
+//       img[src*="#w70"] {
+//       width: 70%;
+//       }
       
-      img[src*="#w60"] {
-      width: 60%;
-      }
+//       img[src*="#w60"] {
+//       width: 60%;
+//       }
       
-      img[src*="#w50"] {
-      width: 50%;
-      }
+//       img[src*="#w50"] {
+//       width: 50%;
+//       }
       
-      img[src*="#w40"] {
-        width: 40%;
-      }
-      img[src*="#w30"] {
-        width: 30%;
-      }
-  }
-  // 移动
-  @media screen and (min-device-width: 650px){
-      img[src*="#w100"] {
-        width: 100%;
-        }
-        img[src*="#w90"] {
-        width: 90%;
-        }
+//       img[src*="#w40"] {
+//         width: 40%;
+//       }
+//       img[src*="#w30"] {
+//         width: 30%;
+//       }
+//   }
+//   // 移动
+//   @media screen and (min-device-width: 650px){
+//       img[src*="#w100"] {
+//         width: 100%;
+//         }
+//         img[src*="#w90"] {
+//         width: 90%;
+//         }
         
-        img[src*="#w80"] {
-        width: 80%;
-        }
+//         img[src*="#w80"] {
+//         width: 80%;
+//         }
         
-        img[src*="#w70"] {
-        width: 70%;
-        }
+//         img[src*="#w70"] {
+//         width: 70%;
+//         }
         
-        img[src*="#w60"] {
-        width: 60%;
-        }
+//         img[src*="#w60"] {
+//         width: 60%;
+//         }
         
-        img[src*="#w50"] {
-        width: 50%;
-        }
+//         img[src*="#w50"] {
+//         width: 50%;
+//         }
         
-        img[src*="#w40"] {
-          width: 40%;
-        }
-        img[src*="#w30"] {
-          width: 30%;
-        }
-    }
+//         img[src*="#w40"] {
+//           width: 40%;
+//         }
+//         img[src*="#w30"] {
+//           width: 30%;
+//         }
+// }
 
 
 a {
