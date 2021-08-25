@@ -68,7 +68,8 @@
 
     &.fancybox {
       border: 0;
-      display: flex;
+    //   display: flex;
+    //   justify-content: center;
     }
   }
 
@@ -87,10 +88,11 @@
   }
 
   img {
-    display: inline-block;
-    // max-width: 100%;
-    width: 100%;
+    display: block;
+    margin: 0 auto;
+    width: 80%;
     height: auto;
+    max-width: 100%;
   }
 
   .table-wrapper {
